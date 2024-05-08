@@ -40,6 +40,7 @@ class _TextInputWidgetState extends State<TextInputWidget> {
   void _handleDelete(int index) {
     print("Deleting message at index: $index"); // 콘솔에 index 출력
     print("Type of _messages: ${_messages.runtimeType}"); // _messages의 타입 출력
+    print("this print a example for atesting for git commit "); // _messages의 타입 출력
 
     setState(() {
       _messages.removeAt(index);
